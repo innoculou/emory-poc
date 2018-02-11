@@ -1,0 +1,165 @@
+:host {
+  display: block;
+
+  .card {
+    box-shadow: 0 0 50px -10px #aaa;
+  }
+}
+
+.card-body {
+  background: url(../../../../assets/images/box_pink.svg) no-repeat top left;
+  background-size: 100% auto;
+  top: -32px;
+  position: relative;
+  height: 33em;
+}
+
+.card-check {
+  padding-left: 6em;
+  padding-top: 0em;
+  position: relative;
+  top: -3em;
+}
+
+.card-header {
+  left: -13.6em;
+  position: relative;
+  padding: 0.75rem 2.5rem;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: 0px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-image {
+  width: 4em;
+  position: relative;
+  top: 3em;
+  left: 0.6em;
+}
+
+.calendar-image {
+  width: 1.2em;
+  position: relative;
+  top: -0.5em;
+  left: 5.6em;
+}
+
+.calendar-text {
+  left: 7em;
+  position: relative;
+  top: -7px;
+  font-size: 0.8em;
+  color: darkgrey;
+}
+
+.map-image {
+  width: 1.2em;
+  position: relative;
+  top: -0.3em;
+  left: 5.6em;
+}
+
+.check-image {
+  width: 3em;
+}
+
+.completed-text {
+  left: -0.0em;
+  position: relative;
+  top: 4px;
+  font-size: 0.8em;
+  display: block;
+  overflow: hidden;
+  width: 69px;
+  color: darkgrey;
+}
+
+.bg-info {
+  background-color: #fff !important;
+}
+
+.timeline {
+  width: 138em;
+}
+
+.border {
+  border: 0px solid #e9ecef !important;
+}
+
+.desc-text {
+  color: darkgray;
+  font-size: 1.5em;
+  font-family: initial;
+}
+
+.desc {
+  color: darkgray;
+  font-size: 0.8em;
+}
+
+.desc-1 {
+  color: darkgray;
+  font-size: 13px;
+}
+
+.url-more {
+  font-size: 0.8em;
+}
+
+.lower-section {
+  padding-left: 0.7em;
+}
+
+.d1-text {
+  color: darkgray;
+  font-size: 1.1em;
+  font-family: initial;
+}
+
+.d1-check {
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+}
+
+.map-text {
+  left: 8.8em;
+  position: relative;
+  top: -25px;
+  font-size: 0.8em;
+  display: block;
+  width: 14em;
+  color: darkgrey;
+}
+
+.middle-section {
+  position: relative;
+  left: -3em;
+}
+
+.images {
+  width: 5.2em;
+}
+
+.image1 {
+  position: relative;
+  top: 3.5em;
+  left: 0.6em;
+}
+
+.image2 {
+  position: relative;
+  top: 2.0em;
+  left: 5.4em;
+}
+
+.image3 {
+  position: relative;
+  top: 0.5em;
+  left: 10.2em;
+}
+
+.image4 {
+  position: relative;
+  top: -1em;
+  left: 15em;
+}

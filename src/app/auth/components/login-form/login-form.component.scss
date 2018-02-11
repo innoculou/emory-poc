@@ -1,0 +1,66 @@
+:host {
+  display: block;
+
+  .card {
+    box-shadow: 0 0 50px -10px #aaa;
+  }
+}
+
+.card-body {
+  background: url(../../../../assets/images/logInBack.svg) no-repeat top left;
+  background-size: 100% auto;
+  padding-top: 56px;
+}
+
+.card-title {
+  margin-bottom: 2.75rem;
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: initial;
+}
+
+.btn-login {
+  background-color: #d2b000;
+}
+
+.emory-icon {
+  color: #e8ebf4;
+  height: 75px;
+}
+
+.card-icon {
+  text-align: center;
+}
+
+.footer-title-large {
+  text-align: left;
+  color: #fff;
+  padding-top: 3.3em;
+  position: relative;
+  left: 112px;
+  font-size: 2rem;
+  font-family: initial;
+}
+
+.footer-title-small {
+  font-size: 11.5px;
+  position: relative;
+  top: -10px;
+  left: 1px;
+}
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.bhc-logo {
+  color: #e8ebf4;
+  height: 42px;
+}
+
+.bhc {
+  padding-top: 9.5em;
+  text-align: center;
+}
