@@ -14,6 +14,8 @@
 
 ## [API Doc](https://documenter.getpostman.com/view/1691659/angular-seed/77mY1dq)
 
+[![Join the chat at https://gitter.im/my-emory-journey/Lobby](https://badges.gitter.im/my-emory-journey/Lobby.svg)](https://gitter.im/my-emory-journey/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## What's included?
 Currently, this is a fairly basic vesion of the application. We are calling it a pre-alpha release.
 
