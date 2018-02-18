@@ -72,10 +72,12 @@ export class AuthService {
    * @memberof AuthService
    */
   authorized(): Observable<boolean> {
-    return this.http
-      .get<{ status: boolean }>('users/check_authenticated')
-      .retry(2)
-      .map(body => body.status);
+    // return this.http
+      // .get<{ status: boolean }>('users/check_authenticated')
+    return Observable.of()
+      .map(x => true)
+      // .retry(2)
+      // .map(body => body.status);
   }
 
   /**

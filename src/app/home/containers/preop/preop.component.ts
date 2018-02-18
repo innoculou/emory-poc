@@ -2,12 +2,12 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-discuss-case',
-  templateUrl: './discuss-case.component.html',
-  styleUrls: ['./discuss-case.component.scss'],
+  selector: 'app-preop',
+  templateUrl: './preop.component.html',
+  styleUrls: ['./preop.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class DiscussCaseComponent implements OnInit {
+export class PreopComponent implements OnInit {
 
   constructor(private _router: Router) { }
 
@@ -15,10 +15,10 @@ export class DiscussCaseComponent implements OnInit {
   }
 
   onSwipeLeft(event) {
-    this._router.navigate(['home/meet']);
+    this._router.navigate(['home/surgery']);
   }
 
   onSwipeRight(event) {
-    this._router.navigate(['home/prescreen']);
+    this._router.navigate(['home/meet']);
   }
 }

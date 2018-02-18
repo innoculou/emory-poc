@@ -1,4 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Router } from '@angular/router';
+import 'hammerjs';
+import 'hammer-timejs';
 
 @Component({
   selector: 'app-pre-screen-2',
@@ -8,9 +11,16 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class PreScreen2Component implements OnInit {
 
-  constructor() { }
+  constructor(private _router: Router) { }
 
   ngOnInit() {
   }
 
+  onSwipeLeft(event) {
+    this._router.navigate(['home/discuss']);
+  }
+
+  onSwipeRight(event) {
+    this._router.navigate(['home/home']);
+  }
 }

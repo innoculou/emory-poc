@@ -14,8 +14,17 @@
   height: 33em;
 }
 
+.card-check {
+  padding-left: 6em;
+  padding-top: 0em;
+  position: relative;
+  top: -3em;
+}
+
 .card-header {
-  padding: 0.75rem 2.75rem;
+  left: -17.7em;
+  position: relative;
+  padding: 0.75rem 2.5rem;
   margin-bottom: 0;
   background-color: #fff;
   border-bottom: 0px solid rgba(0, 0, 0, 0.125);
@@ -54,13 +63,14 @@
   width: 3em;
 }
 
-.map-text {
-  left: 8.8em;
+.completed-text {
+  left: -0.0em;
   position: relative;
-  top: -25px;
+  top: 4px;
   font-size: 0.8em;
   display: block;
-  width: 14em;
+  overflow: hidden;
+  width: 69px;
   color: darkgrey;
 }
 
@@ -89,6 +99,7 @@
 
 .desc-1 {
   color: darkgray;
+  font-size: 13px;
 }
 
 .url-more {
@@ -106,6 +117,30 @@
 }
 
 .d1-check {
-  padding-top: 1.1em;
+  padding-top: -0.9em;
   padding-bottom: 0.7em;
+}
+
+.map-text {
+  left: 8.8em;
+  position: relative;
+  top: -25px;
+  font-size: 0.8em;
+  display: block;
+  width: 14em;
+  color: darkgrey;
+}
+
+.middle-section {
+  position: relative;
+  left: -3em;
+}
+
+object
+{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50px;
+  top: 10px;
 }

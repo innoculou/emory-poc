@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://ng-ngrx-seed.firebaseapp.com/" target='_blank'>
+  <a href="https://my-emory-journey.firebaseapp.com/" target='_blank'>
     <img alt="Angular Seed Logo" title="AngularSeed Logo" src="https://res.cloudinary.com/aviabird/image/upload/v1510377563/angular-seed/logo.png" width="200">
   </a>
 </p>
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ng-ngrx-seed.firebaseapp.com/" target='_blank'>Check demo</a> | <a href="https://aviabird.github.io/angular-seed/" target="_blank">Docs </a>
+  <a href="https://my-emory-journey.firebaseapp.com/" target='_blank'>Check demo</a> | <a href="https://aviabird.github.io/angular-seed/" target="_blank">Docs </a>
 </p>
 
 ## [API Doc](https://documenter.getpostman.com/view/1691659/angular-seed/77mY1dq)
@@ -67,4 +67,3 @@ We love some frameworks too:-
 * ReactJs
 * BackboneJs
 
-### We are avialible for hire

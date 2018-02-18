@@ -5,24 +5,25 @@ import 'hammerjs';
 import 'hammer-timejs';
 
 @Component({
-  selector: 'app-pre-screen-1',
-  templateUrl: './pre-screen-1.component.html',
-  styleUrls: ['./pre-screen-1.component.scss'],
+  selector: 'app-meet-your-surgeon',
+  templateUrl: './meet-your-surgeon.component.html',
+  styleUrls: ['./meet-your-surgeon.component.scss'],
   encapsulation: ViewEncapsulation.None
+
 })
-export class PreScreen1Component implements OnInit {
+export class MeetYourSurgeonComponent implements OnInit {
 
   constructor(private route: ActivatedRoute,
-    private router: Router) { }
+    private _router: Router) { }
 
   ngOnInit() {
   }
 
   onSwipeLeft(event) {
-    this.router.navigate(['home/prescreen']);
+    this._router.navigateByUrl('home/preop');
   }
 
   onSwipeRight(event) {
-    console.log('right', event);
+    this._router.navigateByUrl('home/discuss');
   }
 }

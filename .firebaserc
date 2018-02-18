@@ -1,6 +1,5 @@
 {
   "projects": {
-    "ngrx-seed": "ng-ngrx-seed",
-    "default": "ng-ngrx-seed"
+    "staging": "my-emory-journey"
   }
 }
