@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
+import { animate, state, style, transition, trigger, group, query } from '@angular/animations';
 
 import 'hammerjs';
 import 'hammer-timejs';
@@ -23,6 +24,6 @@ export class PreScreen1Component implements OnInit {
   }
 
   onSwipeRight(event) {
-    console.log('right', event);
+    console.log('back to login?');
   }
 }

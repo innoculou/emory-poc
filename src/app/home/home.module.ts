@@ -15,7 +15,9 @@ const COMPONENTS = [
   HomeComponent,
   DiscussCaseComponent,
   PreScreen2Component,
-  PreScreen1Component
+  PreScreen1Component,
+  MeetYourSurgeonComponent,
+  PreopComponent
 ];
 
 @NgModule({

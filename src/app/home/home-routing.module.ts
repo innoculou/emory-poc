@@ -8,55 +8,60 @@ import { MeetYourSurgeonComponent } from './containers/meet-your-surgeon/meet-yo
 import { PreopComponent } from './containers/preop/preop.component';
 
 const routes: Routes = [{
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-  {
-    path: 'home',
-    component: PreScreen1Component,
-    data: {
-      animation: {
-        value: 'home',
-      }
+  path: '',
+  redirectTo: 'home',
+  pathMatch: 'full',
+},
+{
+  path: 'home',
+  component: PreScreen1Component,
+  data: {
+    depth: 1,
+    animation: {
+      value: 'home',
     }
-  },
-  {
-    path: 'prescreen',
-    component: PreScreen2Component,
-    data: {
-      animation: {
-        value: 'prescreen',
-      }
+  }
+},
+{
+  path: 'prescreen',
+  component: PreScreen2Component,
+  data: {
+    depth: 2,
+    animation: {
+      value: 'prescreen',
     }
-  },
-  {
-    path: 'discuss',
-    component: DiscussCaseComponent,
-    data: {
-      animation: {
-        value: 'discuss',
-      }
+  }
+},
+{
+  path: 'discuss',
+  component: DiscussCaseComponent,
+  data: {
+    depth: 3,
+    animation: {
+      value: 'discuss',
     }
-  },
-  {
-    path: 'meet',
-    component: MeetYourSurgeonComponent,
-    data: {
-      animation: {
-        value: 'meet',
-      }
+  }
+},
+{
+  path: 'meet',
+  component: MeetYourSurgeonComponent,
+  data: {
+    depth: 4,
+    animation: {
+      value: 'meet',
     }
-  },
-  {
-    path: 'preop',
-    component: PreopComponent,
-    data: {
-      animation: {
-        value: 'preop',
-      }
+  }
+},
+{
+  path: 'preop',
+  component: PreopComponent,
+  data: {
+    depth: 5,
+    animation: {
+      value: 'preop',
     }
-  },
+  }
+},
 ];
 
 @NgModule({
