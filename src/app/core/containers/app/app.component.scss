@@ -1,5 +1,8 @@
 .routeContainer {
   position: relative;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 10% auto 10%;
 }
 
 .routeContainer>* {

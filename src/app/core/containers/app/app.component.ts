@@ -7,6 +7,7 @@ import { Store } from '@ngrx/store';
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import * as fromAuth from '../../../auth/store/reducers';
 import { Router, ActivatedRoute, NavigationEnd, NavigationStart } from '@angular/router';
+import 'rxjs/add/operator/filter';
 
 @Component({
   selector: 'app-root',
@@ -67,7 +68,6 @@ export class AppComponent {
       // ga('send', 'pageview', n.urlAfterRedirects);
     });
     router.events.filter(e => e instanceof NavigationStart).subscribe(next => {
-
       if (this.container) {
         this._maxHeight = null;
       }
